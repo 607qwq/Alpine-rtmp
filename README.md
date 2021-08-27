@@ -24,7 +24,7 @@ docker exec -it rtmp sh
 
 **点播**
 
-![](img/1.png)
+![](https://i.loli.net/2021/08/27/cMXezNnfgQY8qwK.png)
 
 **live**
 
@@ -32,7 +32,7 @@ docker exec -it rtmp sh
 ffmpeg -re -i 23.mp4 -vcodec copy -acodec copy -f flv "rtmp://127.0.0.1:1935/live/test1"
 ~~~
 
-![](img/2.png)
+![](https://i.loli.net/2021/08/27/mWnLFJODuxb9XSp.png)
 
 **hls**
 
@@ -40,9 +40,9 @@ ffmpeg -re -i 23.mp4 -vcodec copy -acodec copy -f flv "rtmp://127.0.0.1:1935/liv
  ffmpeg -re -i  24.mp4 -vcodec copy -acodec copy -f flv "rtmp://127.0.0.1:1935/hls/test2"
 ~~~
 
-![](img/3.png)
+![](https://i.loli.net/2021/08/27/kOj79NJedY4XSTM.png)
 
 **stat界面**
 
-![](img/4.png)
+![](https://i.loli.net/2021/08/27/o6wlp2YSDRXOP94.png)
 
